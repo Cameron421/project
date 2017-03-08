@@ -34,7 +34,7 @@ button.addEventListener("click", generateQuote);
 var name = []
 
 name[0] = "Matt"
-name[1] = "John"
+name[1] = "Charlie"
 name[2] = "Jamie"
 name[3] = "Joe"
 name[4] = "Nathan"
