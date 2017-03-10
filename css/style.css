@@ -1,0 +1,35 @@
+/* This is a Style Sheet. All information within this wrapper are treated as comments and subsequently ignored.
+   These comments can extend multiple lines, unlike the double-slash comments used in JavaScript */
+
+/* First, let's reset a few default values (as browsers often have pretty horrible defaults) */
+
+body {
+  /* This is a font stack. A font stack works by having a list of fonts seperated by commas.
+     A browser will work from left to right and attempt to display the fonts in the order provided.
+     This is because a browser may not have the 'Helvetica Neue' font installed, and so will be
+     unable to show it. If this is the case, the browser will try falling back onto the next font
+     in the list (in this case, Helvetica, then Arial and finally sans-serif). All font stacks should
+     end with either sans-serif of serif, as this tells the browser that if no fonts within the stack
+     are supported, it can fall back to the system/OS default for that font style
+
+     - Serif fonts are fonts with inflections on the ends of words (like old print fonts, or Times New Roman).
+     - Sans is Latin for 'without', so sans-serif fonts are fonts without inflections at their extremities (such as Arial) */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* Some more CSS declarations */
+  font-size: 18px;
+  padding: 20px;
+  }
+
+a {
+  color: #20a367; /* 20a367 is a colour reference (the colour in this case is green) and sets all 'a' tags to this colour  */
+  }
+
+p {
+  line-height: 140%;
+  }
+
+/* To select an element by its id, you write a hash (#) followed by the name. This means you an select specific 'p' tags, for example, instead of all 'p' tags */
+#messageOutput {
+  color: #999;
+  }
